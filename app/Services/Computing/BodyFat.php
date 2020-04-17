@@ -13,7 +13,7 @@ class BodyFat {
     return $body->weight * (1 - $fatBodyMass/100);
   }
 
-  protected function computeFatProportion(BodyParam $body = null, FatParam $fat = null) {
+  public function computeFatProportion(BodyParam $body = null, FatParam $fat = null) {
     $age    = $body->age;
     $height = $body->height;
     $gender = $body->gender;

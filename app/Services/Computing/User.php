@@ -51,16 +51,16 @@ class User {
   }
 
   public function formatFatBodyMass(BodyParam $body = null, FatParam $fat = null) {
-    $fatBodyProportion = $this->computer->computeFat($body, $fat);  
+    $fatBodyProportion = $this->computer->computeFatProportion($body, $fat);
 
-    $logHeight     = log($height, 10);
-    $logProportion = log($hips + $waist - $neck, 10);
+    $logHeight     = log($body->height, 10);
+    $logProportion = log($body->hips + $body->waist - $body->neck, 10);
 
     return [
       "fat_proportion"  => $fatBodyProportion,
       "fat"             => $body->weight * $fatBodyProportion/100,
       "lean"            => $body->weight * (1 - $fatBodyProportion/100),
-      "details" => [$logHeight, $logProportion, $height, $waist, $neck, $hips]
+      // "details" => [$logHeight, $logProportion, $height, $waist, $neck, $hips]
     ];
   }
 }

@@ -68,6 +68,20 @@ class User extends Authenticatable
     }
 
     /**
+     * Get the last
+     */
+    public function getDailyData($id) {
+      return $this->dailyDatas()->where("id", $id)->get()->last();
+    }
+
+    /**
+     * Get the last
+     */
+    public function getLastDailyData() {
+      return $this->dailyDatas()->where("open", 1)->get()->last();
+    }
+
+    /**
      * Get the user body params
      */
     public function bodyParams() {
@@ -79,5 +93,12 @@ class User extends Authenticatable
      */
     public function bodyFat() {
         return $this->hasMany('App\UserBodyFat');
+    }
+
+    /**
+     * Get the user body params
+     */
+    public function dailyDatas() {
+        return $this->hasMany('App\DailyData');
     }
 }

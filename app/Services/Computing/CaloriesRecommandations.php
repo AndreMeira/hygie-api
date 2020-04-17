@@ -17,6 +17,10 @@ class CaloriesRecommandations {
     "Mode de vie très actif (entrainement sportif de plus d’une heure/jour / déménageur / etc. "
   ];
 
+  const FACTORS = [
+    1, 1, 1.12, 1.27, 1.45
+  ];
+
   /**
    *
    */
@@ -24,11 +28,15 @@ class CaloriesRecommandations {
     $i = 0;
     $result = [];
 
-    foreach (self::LABELS as $label) {
-      $result[] = [
-        "label" => $label,
-        "dej"   => (self::BASE_CAL + (21,6 * $bodyLeanMass)) * pow(1.15, ++$i)
-      ];
+    foreach (self::LABELS as $i => $label) {
+      $coeff = 1.15;
+      $coeff = $i > 1 ? $coeff : $coeff**$i;
+      $factor = self::FACTORS[$i];
+      $dej = (self::BASE_CAL + (21.6 * $bodyLeanMass)) * $coeff * $factor;
+      $result[] = ["label" => $label, "dej"   => $dej];
+      $i++;
     }
+
+    return $result;
   }
 }
