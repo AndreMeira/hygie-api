@@ -56,29 +56,42 @@ class User extends Authenticatable
 
     }
 
+    public function getSurveyResult($survey) {
+        return $this->surveyResult()
+          // ->with("\App\Survey")
+          ->where("survey_id", $survey->id)
+          ->get()->last();
+    }
+
+    public function getSurveyResults() {
+        return $this->surveyResult()
+          // ->with("\App\Survey")
+          ->get();
+    }
+
     /**
      * Get the last
      */
     public function getLastBodyFat() {
-      if ($this->bodyFat) {
-        return $this->bodyFat->last();
-      }
+        if ($this->bodyFat) {
+          return $this->bodyFat->last();
+        }
 
-      return null;
+        return null;
     }
 
     /**
      * Get the last
      */
     public function getDailyData($id) {
-      return $this->dailyDatas()->where("id", $id)->get()->last();
+        return $this->dailyDatas()->where("id", $id)->get()->last();
     }
 
     /**
      * Get the last
      */
     public function getLastDailyData() {
-      return $this->dailyDatas()->where("open", 1)->get()->last();
+        return $this->dailyDatas()->where("open", 1)->get()->last();
     }
 
     /**
@@ -100,5 +113,12 @@ class User extends Authenticatable
      */
     public function dailyDatas() {
         return $this->hasMany('App\DailyData');
+    }
+
+    /**
+     * Get the user body params
+     */
+    public function surveyResult() {
+        return $this->hasMany('App\UserSurveyResult');
     }
 }

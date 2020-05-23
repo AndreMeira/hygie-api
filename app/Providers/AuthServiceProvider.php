@@ -26,5 +26,13 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
         Passport::routes();
+
+        Gate::define('view', function ($user, $model) {
+            if ($model instanceof Illuminate\Database\Eloquent\Model) {
+                return $user->id == $model->user_id ;
+            }
+
+            return true;
+        });
     }
 }

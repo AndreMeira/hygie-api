@@ -1,0 +1,444 @@
+[
+   {
+      "label":"Combien de cafés bois-tu par jour ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je n'en bois pas"
+         },
+         {
+            "score":0,
+            "label":"Je ne bois que du déca"
+         },
+         {
+            "score":0,
+            "label":"Je bois 1 café par jour"
+         },
+         {
+            "score":-1,
+            "label":"2 ou 3 cafés par jour"
+         },
+         {
+            "score":-4,
+            "label":"plus de 3 café par jour"
+         }
+      ]
+   },
+   {
+      "label":"Combien de verres d'alcool bois-tu par jour ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je n'en bois pas tous les jours"
+         },
+         {
+            "score":0,
+            "label":"1 verre"
+         },
+         {
+            "score":-4,
+            "label":"Plus d'un verre"
+         }
+      ]
+   },
+   {
+      "label":"Combien de verres d'alcool bois-tu par semaine ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je n'en bois pas"
+         },
+         {
+            "score":2,
+            "label":"1 à 3 verres maximum"
+         },
+         {
+            "score":-4,
+            "label":"3 à 5 verres"
+         },
+         {
+            "score":-4,
+            "label":"plus de 7 verres"
+         },
+         {
+            "score":-4,
+            "label":"Je ne bois que du vin rouge de qualité bio ou biodynamie sans dépasser 7 verres par semaine"
+         }
+      ]
+   },
+   {
+      "label":"Quelles quantité d'eau ou de tisanes consommes-tu par jour ? (le thé noir, vert et blanc ne compte pas)",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-4,
+            "label":"Moins d'un litre par jour"
+         },
+         {
+            "score":4,
+            "label":"1 à 2 litres par jour"
+         },
+         {
+            "score":2,
+            "label":"Plus de 2 litres"
+         },
+         {
+            "score":-4,
+            "label":"Plus de 3 litres"
+         }
+      ]
+   },
+   {
+      "label":"Combien de fois par semaine manges-tu de la viande rouge ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je n'en mange pas ou 1 à 2 fois par mois"
+         },
+         {
+            "score":3,
+            "label":"1 par semaine"
+         },
+         {
+            "score":0,
+            "label":"2 à 3 fois par semaine"
+         },
+         {
+            "score":-4,
+            "label":"Plus de 3 fois par semaine"
+         }
+      ]
+   },
+   {
+      "label":"Où achètes-tu ta viande, tes poissons, tes oeufs, tes produits laitiers, en clair tous tes produits animaux que tu consommes le plus souvent ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Au marché ou chez le boucher bio (ou raisonné)"
+         },
+         {
+            "score":4,
+            "label":"En magasin bio ou de qualité bio"
+         },
+         {
+            "score":0,
+            "label":"Au marché ou chez le boucher (non bio)"
+         },
+         {
+            "score":-4,
+            "label":"En grande surface ou supermarchés (non bio)"
+         }
+      ]
+   },
+   {
+      "label":"Combien de fois par semaine manges-tu des gros poissons ? (thon, saumon, morue, perche, brochet, mérou, merlu, etc.)",
+      "multiple":false,
+      "answers":[
+         {
+            "score":0,
+            "label":"Jamais"
+         },
+         {
+            "score":2,
+            "label":"1 fois par semaine"
+         },
+         {
+            "score":2,
+            "label":"1 à 2 fois par semaine"
+         },
+         {
+            "score":4,
+            "label":"plus de 2 fois par semaine"
+         }
+      ]
+   },
+   {
+      "label":"Combien de fois par semaine manges-tu des petits poissons ? (sardines, maquereau, hareng, etc.)",
+      "multiple":false,
+      "answers":[
+         {
+            "score":0,
+            "label":"Jamais"
+         },
+         {
+            "score":2,
+            "label":"1 à 2 fois par semaine"
+         },
+         {
+            "score":4,
+            "label":"plus de 2 fois par semaine"
+         }
+      ]
+   },
+   {
+      "label":"Consommes-tu l'un de ces aliments ou compléments régulièrement: graine de chia, graines de lin, huile de lin, huile de cameline, huile de colza, huile ou graines de chanvre, compléments alimentaires riches en oméga 3 ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":0,
+            "label":"Jamais"
+         },
+         {
+            "score":1,
+            "label":"1 fois par semaine"
+         },
+         {
+            "score":2,
+            "label":"2 à 4 fois par semaine"
+         },
+         {
+            "score":4,
+            "label":"5 ou plus"
+         }
+      ]
+   },
+   {
+      "label":"Quel type de céréales consommes-tu régulièrement ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Céréales de petits déjeuners industriels"
+         },
+         {
+            "score":-2,
+            "label":"Céréales complètes ou pain complet non bio (sarrasin, riz complet, pâtes complètes, etc.)"
+         },
+         {
+            "score":-2,
+            "label":"Baguette traditionnelle"
+         },
+         {
+            "score":2,
+            "label":"Céréales complètes ou pain complet bio"
+         },
+         {
+            "score":2,
+            "label":"Pain bio au levain naturel"
+         },
+         {
+            "score":4,
+            "label":"Je ne consomme pas de céréales à chaque repas"
+         }
+      ]
+   },
+   {
+      "label":"Quel type de dessert consommes-tu le plus souvent ? (une seule réponse possible)",
+      "multiple":false,
+      "answers":[
+         {
+            "score":1,
+            "label":"Je n'aime pas les desserts"
+         },
+         {
+            "score":1,
+            "label":"Fruit cru"
+         },
+         {
+            "score":4,
+            "label":"Fruits cuits, compote"
+         },
+         {
+            "score":-2,
+            "label":"Biscuits, gâteaux, tartes"
+         },
+         {
+            "score":-4,
+            "label":"Pâtisserie"
+         },
+         {
+            "score":-4,
+            "label":"Glace"
+         },
+         {
+            "score":2,
+            "label":"Carré de chocolat noir"
+         },
+         {
+            "score":-2,
+            "label":"Carré de chocolat au lait ou blanc"
+         },
+         {
+            "score":-2,
+            "label":"Yaourt de lait de vache, de brebis ou de chèvre"
+         },
+         {
+            "score":-2,
+            "label":"Yaourt de soja"
+         },
+         {
+            "score":4,
+            "label":"Autre yaourt végétal"
+         },
+         {
+            "score":4,
+            "label":"Si je consomme un youart il est sans sucre ajouté"
+         },
+         {
+            "score":-4,
+            "label":"Il y a du sucre ajouté dans mes yaourts"
+         }
+      ]
+   },
+   {
+      "label":"Quel type de matières grasses utilises-tu pour la cuisson le plus souvent ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-4,
+            "label":"Margarine"
+         },
+         {
+            "score":-4,
+            "label":"Beurre"
+         },
+         {
+            "score":-4,
+            "label":"Huile végétale (tournesol, colza, etc.)"
+         },
+         {
+            "score":2,
+            "label":"Huile d'olive"
+         },
+         {
+            "score":4,
+            "label":"Huile de coco"
+         },
+         {
+            "score":4,
+            "label":"Ghee (beurre clarifié)"
+         },
+         {
+            "score":0,
+            "label":"Je n'ajoute jamais de matières grasses"
+         }
+      ]
+   },
+   {
+      "label":"Quel type de matières grasses utilises-tu pour assaisonner le plus souvent ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":2,
+            "label":"Huile d'olive"
+         },
+         {
+            "score":4,
+            "label":"Huile de cameline, ou chanvre, ou colza, etc."
+         },
+         {
+            "score":-4,
+            "label":"Une vinaigrette toute prête"
+         },
+         {
+            "score":-2,
+            "label":"Je n’ajoute jamais de matières grasses"
+         },
+         {
+            "score":2,
+            "label":"Dans tous les cas c'est toujours une huile dans une bouteille en verre, vierge, extraite à froid"
+         }
+      ]
+   },
+   {
+      "label":"Ajoutes-tu du sel sur tes plats ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Oui, du sel blanc"
+         },
+         {
+            "score":2,
+            "label":"Oui, du sel complet ou des alternatives (gomasio, etc.)"
+         },
+         {
+            "score":1,
+            "label":"non"
+         }
+      ]
+   },
+   {
+      "label":"Ajoutes-tu des épices ou des aromates tous les jours ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":2,
+            "label":"Oui"
+         },
+         {
+            "score":-2,
+            "label":"Non"
+         }
+      ]
+   },
+   {
+      "label":"À quelle fréquence consommes-tu des produits industriels ou ultra-transformés ? (plus de 5 ingrédients sur l’étiquette)",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-8,
+            "label":"Plusieurs fois par jour"
+         },
+         {
+            "score":-6,
+            "label":"1 fois par jour"
+         },
+         {
+            "score":-4,
+            "label":"Plus de 5 fois par semaine"
+         },
+         {
+            "score":-2,
+            "label":"Moins de 5 fois par semaine"
+         },
+         {
+            "score":0,
+            "label":"5 fois par mois environ"
+         },
+         {
+            "score":4,
+            "label":"Très rarement ou jamais"
+         }
+      ]
+   },
+   {
+      "label":"Quelle est ta fréquence de consommation de fruits et légumes en général ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":6,
+            "label":"Plus de 5 portions par jour  "
+         },
+         {
+            "score":4,
+            "label":"5 portions par jour"
+         },
+         {
+            "score":1,
+            "label":"2 à 4 par jour"
+         },
+         {
+            "score":-2,
+            "label":"1 portion par jour"
+         },
+         {
+            "score":-4,
+            "label":"Moins d’une fois par jour"
+         },
+         {
+            "score":2,
+            "label":"Le plus souvent ils sont bio ou non traités"
+         },
+         {
+            "score":2,
+            "label":"Je choisis les produits locaux en général"
+         }
+      ]
+   }
+]

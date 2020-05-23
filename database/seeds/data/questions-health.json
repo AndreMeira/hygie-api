@@ -1,0 +1,706 @@
+[
+   {
+      "label":"Comment te sens-tu de manière générale ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-4,
+            "label":"Epuisé"
+         },
+         {
+            "score":-2,
+            "label":"Mon énergie n’est pas constante, le plus souvent je suis fatigué"
+         },
+         {
+            "score":0,
+            "label":"J’ai des coups de mou dans la journée"
+         },
+         {
+            "score":4,
+            "label":"Je me sens bien sauf si ma nuit est un peu courte"
+         },
+         {
+            "score":4,
+            "label":"Je suis en pleine forme"
+         }
+      ]
+   },
+   {
+      "label":"Arrives-tu à t’endormir facilement ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Oui"
+         },
+         {
+            "score":2,
+            "label":"Pas en période de stress"
+         },
+         {
+            "score":-2,
+            "label":"Non, je peux mettre plus d’une heure à trouver le sommeil"
+         }
+      ]
+   },
+   {
+      "label":"Te réveilles-tu la nuit ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Oui et plusieurs fois dans la nuit"
+         },
+         {
+            "score":-2,
+            "label":"Oui et toujours à la même heure"
+         },
+         {
+            "score":0,
+            "label":"Parfois oui, si je suis stressé"
+         },
+         {
+            "score":4,
+            "label":"Jamais ou c’est rare"
+         }
+      ]
+   },
+   {
+      "label":"Comment te sens-tu au réveil ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je me sens bien"
+         },
+         {
+            "score":2,
+            "label":"J’ai du mal à démarrer mais au bout de 30 minutes je suis lancé"
+         },
+         {
+            "score":0,
+            "label":"Il me faut des heures pour émerger"
+         }
+      ]
+   },
+   {
+      "label":"As-tu faim le matin ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Pas du tout, j’ai la nausée"
+         },
+         {
+            "score":0,
+            "label":"Non je n’ai pas faim avant 10/11h"
+         },
+         {
+            "score":2,
+            "label":"Pas immédiatement mais au bout d’une heure oui"
+         },
+         {
+            "score":2,
+            "label":"Oui ! Je ne peux rien faire si je n’ai pas mangé avant"
+         }
+      ]
+   },
+   {
+      "label":"Te sens-tu stressé ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Sauf exception, non je ne suis pas stressé"
+         },
+         {
+            "score":2,
+            "label":"Cela dépend des événements"
+         },
+         {
+            "score":-2,
+            "label":"Je suis stressé tous les jours"
+         },
+         {
+            "score":-4,
+            "label":"Oui, je souffre de nervosité et d’angoisses"
+         }
+      ]
+   },
+   {
+      "label":"As-tu des troubles de la mémoire ou de l’apprentissage ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":0,
+            "label":"Oui"
+         },
+         {
+            "score":2,
+            "label":"Non"
+         }
+      ]
+   },
+   {
+      "label":"Souffres-tu de reflux ou de remontées acides (reflux gastro-oesophagien) ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Oui, très souvent"
+         },
+         {
+            "score":2,
+            "label":"C’est rare"
+         },
+         {
+            "score":4,
+            "label":"Jamais"
+         }
+      ]
+   },
+   {
+      "label":"As-tu des ballonnements ou des flatulences ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Oui, très souvent et j’en souffre"
+         },
+         {
+            "score":2,
+            "label":"Cela arrive mais rien de gênant"
+         },
+         {
+            "score":4,
+            "label":"C’est occasionnel ou jamais"
+         }
+      ]
+   },
+   {
+      "label":"As-tu des douleurs au niveau du ventre ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":0,
+            "label":"Oui, très souvent"
+         },
+         {
+            "score":2,
+            "label":"Quelques fois"
+         },
+         {
+            "score":4,
+            "label":"Jamais ou c’est rare"
+         }
+      ]
+   }, {
+      "label":"À quelle fréquence vas-tu à la selle ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-4,
+            "label":"1 fois par semaine"
+         },
+         {
+            "score":-2,
+            "label":"1 fois tous les 2 ou 3 jours"
+         },
+         {
+            "score":3,
+            "label":"1 fois par jour"
+         },
+         {
+            "score":4,
+            "label":"Plusieurs fois par jour"
+         },
+         {
+            "score":-2,
+            "label":"Plus de 3 fois par jour"
+         }
+      ]
+   },
+   {
+      "label":"Comment sont-elles en général ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Normales : molles et entières"
+         },
+         {
+            "score":0,
+            "label":"En forme de petits cailloux ou “crottes de lapin”"
+         },
+         {
+            "score":-2,
+            "label":"Déchiquetées"
+         }
+      ]
+   },
+   {
+      "label":"Quelle consistance ont-elles ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Elles sont dures et douloureuses"
+         },
+         {
+            "score":-2,
+            "label":"Elles sont pâteuses"
+         },
+         {
+            "score":4,
+            "label":"Elles sont molles, ni douloureuses, ni pâteuses"
+         },
+         {
+            "score":-4,
+            "label":"Liquides"
+         }
+      ]
+   },
+   {
+      "label":"À quelle fréquence urines-tu ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":0,
+            "label":"1 à 3 fois par jour"
+         },
+         {
+            "score":4,
+            "label":"4 à 10 fois par jour"
+         },
+         {
+            "score":-2,
+            "label":"Plus de 10 fois par jour"
+         },
+         {
+            "score":-2,
+            "label":"Je me réveille la nuit pour uriner et j’ai moins de 45 ans"
+         }
+      ]
+   },
+   {
+      "label":"Comment sont tes urines ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":2,
+            "label":"Jaunes et transparentes"
+         },
+         {
+            "score":0,
+            "label":"Jaunes orangé"
+         },
+         {
+            "score":-2,
+            "label":"Oranges"
+         },
+         {
+            "score":-2,
+            "label":"Mousseuses"
+         }
+      ]
+   },
+   {
+      "label":"As-tu des coups de barre dans la journée ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-4,
+            "label":"Tout le temps"
+         },
+         {
+            "score":-2,
+            "label":"Après chaque repas"
+         },
+         {
+            "score":2,
+            "label":"Cela m’arrive"
+         },
+         {
+            "score":4,
+            "label":"Si j’ai mal dormi oui, sinon non"
+         },
+         {
+            "score":4,
+            "label":"C’est rare"
+         }
+      ]
+   },
+   {
+      "label":"As-tu tous les jours des envies de sucre ou d’excitants (thé, café, tabac)",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Tout le temps"
+         },
+         {
+            "score":0,
+            "label":"Après chaque repas"
+         },
+         {
+            "score":4,
+            "label":"Si j’ai mal dormi oui"
+         },
+         {
+            "score":4,
+            "label":"C’est rare"
+         }
+      ]
+   },
+   {
+      "label":"Souffres-tu de maux chroniques ou d’une maladie ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je suis très rarement malade"
+         },
+         {
+            "score":0,
+            "label":"Tous les ans je fais mon rhume ou ma bronchite saisonnière"
+         },
+         {
+            "score":-8,
+            "label":"Je souffre de maux chroniques (problèmes digestifs, sphère urino-génitale, troubles ostéo-articulaires, etc.)"
+         },
+         {
+            "score":-8,
+            "label":"J’ai souvent des migraines ou des maux de têtes"
+         },
+         {
+            "score":-16,
+            "label":"Je souffre d’une pathologie ou d’une maladie auto-immune"
+         },
+         {
+            "score":-4,
+            "label":"Je souffre d’allergies"
+         },
+         {
+            "score":-4,
+            "label":"J’ai des intolérances alimentaires"
+         }
+      ]
+   },
+   {
+      "label":"À quelle fréquence prends-tu des médicaments ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Moins d’une fois par an ou jamais"
+         },
+         {
+            "score":0,
+            "label":"J’en prends 1 à 2 fois par an"
+         },
+         {
+            "score":-8,
+            "label":"J’en prends à chaque saison"
+         },
+         {
+            "score":-16,
+            "label":"J’en prends de manière continue"
+         }
+      ]
+   },
+   {
+      "label":"Si tu es une femme, as-tu un moyen de contraception ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":0,
+            "label":"Je suis un homme"
+         },
+         {
+            "score":4,
+            "label":"Non"
+         },
+         {
+            "score":-4,
+            "label":"La pilule contraceptive"
+         },
+         {
+            "score":-4,
+            "label":"L’implant"
+         },
+         {
+            "score":-4,
+            "label":"Le stérilet aux hormones"
+         },
+         {
+            "score":2,
+            "label":"Le stérilet en cuivre"
+         },
+         {
+            "score":4,
+            "label":"Le préservatif féminin ou masculin"
+         },
+         {
+            "score":4,
+            "label":"La contraception naturelle (symptothermie)"
+         }
+      ]
+   }, {
+      "label":"Fumes-tu ou prends-tu des drogues douces ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":4,
+            "label":"Non"
+         },
+         {
+            "score":2,
+            "label":"Je n’en consomme qu’exceptionnellement"
+         },
+         {
+            "score":0,
+            "label":"Je n’en consomme que le week-end"
+         },
+         {
+            "score":-4,
+            "label":"J’en consomme tous les jours ou cumul tout le week-end"
+         },
+         {
+            "score":-8,
+            "label":"Je consomme plus de 5 cigarettes par jour"
+         },
+         {
+            "score":-16,
+            "label":"Je consomme plus de 10 cigarettes par jour"
+         }
+      ]
+   },
+   {
+      "label":"Es-tu en excès de poids ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":0,
+            "label":"Non"
+         },
+         {
+            "score":0,
+            "label":"Oui, j’ai quelques kilos en trop"
+         },
+         {
+            "score":-4,
+            "label":"J’ai plus de 7 kilos en trop"
+         },
+         {
+            "score":-4,
+            "label":"Oui et je prends surtout au niveau du ventre"
+         }
+      ]
+   },
+   {
+      "label":"La partie la plus fine de ta taille est-elle supérieure à 80 cm si tu es une femme ou à 94 cm si tu es un homme ?",
+      "multiple":false,
+      "answers":[
+         {
+            "score":-8,
+            "label":"Oui"
+         },
+         {
+            "score":0,
+            "label":"Non"
+         }
+      ]
+   },
+   {
+      "label":"Quel est ton rapport à la nourriture ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je le considère sain"
+         },
+         {
+            "score":-4,
+            "label":"Je souffre de compulsions alimentaires"
+         },
+         {
+            "score":0,
+            "label":"Dans le passé, j’ai souffert de troubles alimentaires"
+         },
+         {
+            "score":-4,
+            "label":"Je pense sans cesse à la nourriture et je suis dans le contrôle"
+         },{
+            "score":-4,
+            "label":"Je compense mes excès avec beaucoup de sport"
+         },
+         {
+            "score":0,
+            "label":"Je fais attention pour garder la ligne mais sans stress"
+         },
+         {
+            "score":2,
+            "label":"Je fais attention pour ma santé surtout"
+         },
+         {
+            "score":-4,
+            "label":"Je suis stressé à l’idée de manger ou de ne pas pouvoir manger"
+         }
+      ]
+   },
+   {
+      "label":"Es-tu actif physiquement ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":-4,
+            "label":"Je travaille ou j’ai une activité qui nécessite d’être assis"
+         },
+         {
+            "score":4,
+            "label":"Je marche plus de 30 minutes par jour"
+         },
+         {
+            "score":4,
+            "label":"Mon activité me permet d’être constamment en mouvement"
+         }
+      ]
+   },
+   {
+      "label":"Pratiques-tu une activité physique en plus ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":-2,
+            "label":"Non"
+         },
+         {
+            "score":1,
+            "label":"1 ou 2 fois par semaine"
+         },
+         {
+            "score":2,
+            "label":"2 à 5 fois par semaine"
+         },
+         {
+            "score":4,
+            "label":"Plus de 5 fois par semaine"
+         },{
+            "score":-2,
+            "label":"Mes séances durent moins de 30 minutes"
+         },
+         {
+            "score":2,
+            "label":"Mes séances durent plus de 30 minutes"
+         },
+         {
+            "score":0,
+            "label":"Je fais du sport à haut niveau"
+         },
+         {
+            "score":-2,
+            "label":"Je ne transpire pas ou peu"
+         }
+      ]
+   },
+   {
+      "label":"Quel est ton état émotionnel le plus souvent ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":-4,
+            "label":"Je me sens triste et déprimé"
+         },
+         {
+            "score":-2,
+            "label":"Je change d’humeur facilement"
+         },
+         {
+            "score":-4,
+            "label":"Je suis colérique ou irritable"
+         },{
+            "score":-4,
+            "label":"Je suis soucieux"
+         },
+         {
+            "score":2,
+            "label":"Je suis calme"
+         },
+         {
+            "score":0,
+            "label":"Je me sens neutre"
+         },{
+            "score":4,
+            "label":"Je suis d’humeur joyeuse"
+         },
+         {
+            "score":-2,
+            "label":"Je suis plutôt pessimiste"
+         },
+         {
+            "score":2,
+            "label":"Je suis plutôt optimiste"
+         },
+         {
+            "score":4,
+            "label":"Je me sens épanoui et heureux"
+         }
+      ]
+   },
+   {
+      "label":"Coche ce qui te correspond (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":4,
+            "label":"Je ressens régulièrement de la gratitude"
+         },
+         {
+            "score":4,
+            "label":"Je m’aime et je me sens aimé"
+         },
+         {
+            "score":2,
+            "label":"Je trouve que j’ai de la chance"
+         },
+         {
+            "score":2,
+            "label":"Malgré les actualités, je trouve que la vie est belle"
+         },
+         {
+            "score":2,
+            "label":"Je prends du temps pour moi régulièrement"
+         },
+         {
+            "score":4,
+            "label":"Je pratique des choses qui me passionnent"
+         }
+      ]
+   },
+   {
+      "label":"Comment définis-tu la qualité de ta vie sociale ? (plusieurs réponses possibles)",
+      "multiple":true,
+      "answers":[
+         {
+            "score":-8,
+            "label":"C’est le néant"
+         },
+         {
+            "score":-4,
+            "label":"Je sors peu et je vois peu mes amis et ma famille et ça me manque"
+         },
+         {
+            "score":-4,
+            "label":"J’ai du mal à me sociabiliser et j’en souffre"
+         },
+         {
+            "score":4,
+            "label":"J’ai une vie sociale qui me convient parfaitement"
+         },
+         {
+            "score":0,
+            "label":"Je pourrais améliorer la qualité de ma vie sociale"
+         }
+      ]
+   }
+]

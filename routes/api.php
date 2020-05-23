@@ -30,3 +30,10 @@ Route::middleware('auth:api')->post('/logout', 'UserController@logout');
 Route::middleware('auth:api')->get('/daily-data', 'DailyDataController@getDailyData');
 Route::middleware('auth:api')->post('/daily-data', 'DailyDataController@createDailyData');
 Route::middleware('auth:api')->put('/daily-data-day/{id}', 'DailyDataController@updateDailyDataDay');
+
+Route::middleware('auth:api')->get('/my-survey', 'SurveyController@me');
+Route::middleware('auth:api')->get('/survey/{cat}', 'SurveyController@survey');
+Route::middleware('auth:api')->post('/survey', 'SurveyController@saveSurvey');
+Route::middleware('auth:api')->get('/previous-answers/{id}', 'SurveyController@previousResultAndAnswers');
+
+Route::get('/result/download/{id}', 'SurveyController@downloadResult');
