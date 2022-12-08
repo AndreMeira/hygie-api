@@ -17,6 +17,15 @@ class UserSurveyResult extends Model
       'survey_id', 'user_id', 'completed_at', 'score', "conclusion", "title"
   ];
 
+  /**
+     * The attributes that should be mutated to dates.
+     *
+     * @var array
+     */
+    protected $dates = [
+        'completed_at',
+    ];
+
   public function survey() {
       return $this->belongsTo(Survey::class);
   }

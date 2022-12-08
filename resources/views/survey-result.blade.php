@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>Resultat</h1>
+    <h1>Résultat // {{$result->title}}</h1>
     <p>{{$result->completed_at}}</p>
 
     <div>

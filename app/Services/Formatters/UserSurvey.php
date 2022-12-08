@@ -28,11 +28,12 @@ class UserSurvey {
       }
 
       return [
+        "category"     => $surveyResult->survey->category,
         "title"        => $surveyResult->survey->title,
         "score"        => $surveyResult->score,
         "result"       => $surveyResult->title,
         "conclusion"   => $surveyResult->conclusion,
-        "completed_at" => $surveyResult->completed_at,
+        "completed_at" => $surveyResult->completed_at->format("d/m/y"),
         "questions"    => $result
       ];
   }
@@ -82,7 +83,7 @@ class UserSurvey {
           "subtitle"     => $surveyResult->title,
           "score"        => $surveyResult->score,
           "conclusion"   => $surveyResult->conclusion,
-          "completed_at" => $surveyResult->completed_at,
+          "completed_at" => $surveyResult->completed_at->format("d/m/y"),
       ] : null;
   }
 

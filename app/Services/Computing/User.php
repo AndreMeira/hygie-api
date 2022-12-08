@@ -32,7 +32,8 @@ class User {
    *
    */
   public function formatBase(\App\User $user) {
-    return $user->toArray() + $user->info->toArray();
+    $info = $user->info ? $user->info->toArray() : [];
+    return $user->toArray() + $info;
   }
 
   /**

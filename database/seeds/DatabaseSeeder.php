@@ -12,9 +12,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(
-          // UsersTableSeeder::class
           SurveySeed::class,
-          SurveyResult::class
+          SurveyResult::class,
+          ChangeLabel::class,
         );
     }
 }
